@@ -284,7 +284,37 @@ const lvlThreeWords = [
 ];
 
 const lvlFourWords = [
- 
+  "fables",
+  "clouds",
+  "dancer",
+  "flakes",
+  "stamps",
+  "bakers",
+  "racket",
+  "pocket",
+  "shines",
+  "fences",
+  "spaces",
+  "grapes",
+  "lances",
+  "meters",
+  "nurses",
+  "oceans",
+  "pastes",
+  "quakes",
+  "ruler",
+  "scales",
+  "tigers",
+  "unions",
+  "voters",
+  "wagers",
+  "xenon",
+  "yachts",
+  "zestly",
+  "bottle",
+  "carpet",
+  "dishes",
+  "flutes",
 ];
 
 const lvlFiveWords = [
