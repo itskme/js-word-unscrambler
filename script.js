@@ -18,7 +18,106 @@ let attempts = 0;
 let correct = 0;
 
 const lvlOneWords = [
-  
+  "aim",
+  "ace",
+  "bed",
+  "bee",
+  "buy",
+  "can",
+  "cow",
+  "cod",
+  "cur",
+  "did",
+  "duo",
+  "die",
+  "dry",
+  "dug",
+  "elf",
+  "egg",
+  "elk",
+  "fat",
+  "fix",
+  "fin",
+  "few",
+  "gym",
+  "guy",
+  "goo",
+  "hen",
+  "hag",
+  "hic",
+  "hut",
+  "ill",
+  "ice",
+  "imp",
+  "ink",
+  "ivy",
+  "jet",
+  "job",
+  "jaw",
+  "jab",
+  "keg",
+  "kid",
+  "lip",
+  "leg",
+  "lad",
+  "let",
+  "led",
+  "law",
+  "lid",
+  "mut",
+  "mat",
+  "mud",
+  "mid",
+  "nit",
+  "nog",
+  "now",
+  "oil",
+  "owl",
+  "oar",
+  "off",
+  "oat",
+  "one",
+  "pry",
+  "pal",
+  "peg",
+  "pea",
+  "pen",
+  "pus",
+  "rad",
+  "rem",
+  "rig",
+  "rob",
+  "saw",
+  "sob",
+  "sec",
+  "shy",
+  "sex",
+  "sly",
+  "tan",
+  "the",
+  "tic",
+  "try",
+  "cop",
+  "uke",
+  "ugh",
+  "ups",
+  "vat",
+  "van",
+  "vet",
+  "woo",
+  "wow",
+  "wry",
+  "wok",
+  "yah",
+  "yak",
+  "yay",
+  "you",
+  "yep",
+  "zit",
+  "zap",
+  "zig",
+  "zag",
+  "zip"
 ];
 
 const lvlTwoWords = [
@@ -30,23 +129,23 @@ const lvlThreeWords = [
 ];
 
 const lvlFourWords = [
-  
+ 
 ];
 
 const lvlFiveWords = [
- 
+  
 ];
 
 const lvlSixWords = [
- 
+  
 ];
 
 const lvlSevenWords = [
-  
+
 ];
 
 const lvlEightWords = [
-  
+
 ];
 
 function reset() {
@@ -71,12 +170,13 @@ function scrambleWord(word) {
     temporaryValue,
     randomIndex;
 
-
+ 
   while (0 !== currentIndex) {
    
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
 
+    
     temporaryValue = letters[currentIndex];
     letters[currentIndex] = letters[randomIndex];
     letters[randomIndex] = temporaryValue;
