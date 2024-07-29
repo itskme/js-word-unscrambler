@@ -18,6 +18,14 @@ let attempts = 0;
 let correct = 0;
 
 const lvlOneWords = [
+  "no",
+  "to",
+  "by",
+  "up",
+  "on"
+];
+
+const lvlTwoWords = [
   "aim",
   "ace",
   "bed",
@@ -120,7 +128,7 @@ const lvlOneWords = [
   "zip"
 ];
 
-const lvlTwoWords = [
+const lvlThreeWords = [
   "able",
   "aced",
   "acid",
@@ -232,10 +240,9 @@ const lvlTwoWords = [
   "wade",
   "wait",
   "wasp",
-
 ];
 
-const lvlThreeWords = [
+const lvlFourWords = [
   "apple",
   "braid",
   "cache",
@@ -283,7 +290,7 @@ const lvlThreeWords = [
   "tiger",
 ];
 
-const lvlFourWords = [
+const lvlFiveWords = [
   "fables",
   "clouds",
   "dancer",
@@ -317,7 +324,7 @@ const lvlFourWords = [
   "flutes",
 ];
 
-const lvlFiveWords = [
+const lvlSixWords = [
   "accents",
   "bottles",
   "carpets",
@@ -351,7 +358,7 @@ const lvlFiveWords = [
   "flicker",
 ];
 
-const lvlSixWords = [
+const lvlSevenWords = [
   "accrue",
   "blanks",
   "cassia",
@@ -379,14 +386,6 @@ const lvlSixWords = [
   "zircon",
   "bricks",
   "clamps"
-];
-
-const lvlSevenWords = [
-
-];
-
-const lvlEightWords = [
-
 ];
 
 function reset() {
