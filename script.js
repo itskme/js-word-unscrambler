@@ -318,7 +318,37 @@ const lvlFourWords = [
 ];
 
 const lvlFiveWords = [
-  
+"accents",
+"bottles",
+"carpets",
+"dancers",
+"flavors",
+"folders",
+"gathers",
+"happens",
+"jackets",
+"kneaded",
+"laments",
+"marched",
+"nations",
+"oceans",
+"painted",
+"quaints",
+"rackets",
+"shaping",
+"stamped",
+"tactile",
+"unified",
+"vacated",
+"wavered",
+"xenials",
+"yachted",
+"zippers",
+"banquet",
+"carried",
+"decoded",
+"emptied",
+"flicker",
 ];
 
 const lvlSixWords = [
